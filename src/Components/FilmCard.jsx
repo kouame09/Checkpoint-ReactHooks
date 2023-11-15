@@ -6,7 +6,7 @@ const FilmCard = ({ title, description, posterURL, category }) => {
       <img src={posterURL} alt={title} />
       <h2>{title}</h2>
       <p>{description}</p>
-      <p>Category: {category}</p>
+      <p>Catégorie: {category}</p>
     </div>
   );
 };
