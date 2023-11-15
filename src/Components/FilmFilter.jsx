@@ -15,12 +15,12 @@ const FilmFilter = ({ onTitleFilter, onCategoryFilter }) => {
 
   return (
     <div className="film-filter">
-      <input type="text" placeholder="Filter by Title" onChange={handleTitleChange} />
+      <input type="text" placeholder="Filtrer par nom" onChange={handleTitleChange} />
       <select onChange={handleCategoryChange}>
-        <option value="">Filter by Category</option>
+        <option value="">Afficher tout</option>
         <option value="Action">Action</option>
-        <option value="Comedy">Comedy</option>
-        <option value="Drama">Drama</option>
+        <option value="Comedy">Comédie</option>
+        <option value="Drama">Drame</option>
         {/* Ajoutez d'autres catégories au besoin */}
       </select>
     </div>

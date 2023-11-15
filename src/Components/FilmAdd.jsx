@@ -23,7 +23,7 @@ const FilmAdd = ({ onAddFilm }) => {
     <form onSubmit={handleSubmit} className="film-add">
       <input
         type="text"
-        placeholder="Title"
+        placeholder="Titre"
         name="title"
         value={newFilm.title}
         onChange={handleChange}
@@ -37,19 +37,19 @@ const FilmAdd = ({ onAddFilm }) => {
       />
       <input
         type="text"
-        placeholder="Poster URL"
+        placeholder="Image URL"
         name="posterURL"
         value={newFilm.posterURL}
         onChange={handleChange}
       />
       <input
         type="text"
-        placeholder="Category"
+        placeholder="Catégorie"
         name="category"
         value={newFilm.category}
         onChange={handleChange}
       />
-      <button type="submit">Add Film</button>
+      <button type="submit">Ajouter Film</button>
     </form>
   );
 };
